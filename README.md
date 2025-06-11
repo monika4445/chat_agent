@@ -1,10 +1,9 @@
-# LangGraph Stateless Chat Agent
+# LangGraph Chat Agent
 
-A simple chatbot that tells current UTC time when asked.
-
-## Setup
-
-1. **Install Ollama**: https://ollama.com/download
-2. **Pull required model**:
+## How to Run 
 ```bash
-ollama pull mistral
+git clone <your_repo>
+cd <repo_name>
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+langgraph dev
